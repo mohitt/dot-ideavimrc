@@ -1,0 +1,50 @@
+let mapleader = " "
+nnoremap <Leader>vl :source ~/.ideavimrc<CR>
+nnoremap <Leader>ve :e ~/.ideavimrc<CR>
+set clipboard=unnamedplus,unnamed
+set nu
+set rnu
+set is
+"
+nmap <Leader>ff  :action GotoFile<CR>
+nmap <Leader>fs  :action GotoSymbol<CR>
+nmap <Leader>s  :action FileStructurePopup<CR>
+nmap <Leader>F  :action FindInPath<CR>
+nmap <Leader>a  :action GotoAction<CR>
+nmap <Leader>e  :action SearchEverywhere<CR>
+nmap <Leader>j  :action PreviousTab<CR>
+nmap <Leader>k  :action NextTab<CR>
+nmap <Leader>r  :action RecentFiles<CR>
+nmap <Leader>p  :action ReformatWithPrettierAction<CR>
+nmap <Leader>pp  :action Tool_External Tools_black-formatter<CR>
+nmap <Leader>d  :action CloseEditor<CR>
+nmap <Leader>t :NERDTreeFocus<CR>
+vmap <Leader>tt  :action Refactorings.QuickListPopupAction<CR>
+nmap ]c :action VcsShowNextChangeMarker<CR>
+nmap [c :action VcsShowPrevChangeMarker<CR>
+
+nnoremap ,d :action ContextDebug<CR>
+nmap <Leader>wl :action SelectInProjectView<CR>
+nmap <Leader>wc :action CloseAllEditorsButActive<CR>
+nmap <Leader>wa :action HideAllWindows<CR>
+
+nmap gu  :action ShowUsages<CR>
+map za :action ExpandCollapseToggleAction<CR>
+
+nmap gi :action GotoImplementation<CR>
+nmap <C-o> :action Back<CR>
+nmap <C-i> :action Forward<CR>
+set commentary
+set surround
+set multiple-cursors
+map mc <A-n>
+map mx <A-x>
+map mp <A-p>
+
+
+set clipboard+=ideaput
+set NERDTree
+set matchit
+set highlightedyank
+set visualbell
+set NERDTree
