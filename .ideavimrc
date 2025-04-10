@@ -465,15 +465,6 @@ nmap <leader>tT :echo 'Not yet implmented.'<cr>
 " Toggle Watch
 nmap <leader>tw :echo 'Not yet implmented.'<cr>
 
-" Hide all windows
-nmap <leader>uz :action HideAllWindows<CR>
-" search everywhere
-nnoremap <leader>me :action SearchEverywhere<CR>
-" reload config
-nnoremap <leader>vl :source ~/.ideavimrc<CR>
-" edit config
-nnoremap <leader>ve :e ~/.ideavimrc<CR>
-
 " nvim-dap
 " Debug Nearest
 nmap <leader>td <Action>(ChooseDebugConfiguration)
@@ -487,3 +478,14 @@ inoremap <C-W> <C-G>u<C-W>
 " Q isn't exactly the same.
 nnoremap Q @@
 " There are several more Neovim mappings that need to be ported.
+
+" -------------------- Custom Mappings
+
+" Hide all windows
+nmap <leader>uz :action HideAllWindows<CR>
+" search everywhere
+nnoremap <leader>me :action SearchEverywhere<CR>
+" reload config
+nnoremap <leader>vl :source ~/.ideavimrc<CR>
+" edit config
+nnoremap <leader>ve :e ~/.ideavimrc<CR>
