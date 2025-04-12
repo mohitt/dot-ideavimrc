@@ -489,3 +489,5 @@ nnoremap <leader>me :action SearchEverywhere<CR>
 nnoremap <leader>vl :source ~/.ideavimrc<CR>
 " edit config
 nnoremap <leader>ve :e ~/.ideavimrc<CR>
+
+nmap gu <Action>(ShowUsages)
