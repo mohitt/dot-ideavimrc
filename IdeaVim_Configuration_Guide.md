@@ -9,6 +9,20 @@ Key configuration elements:
 - The `\` (backslash) key is set as the local leader key (`let maplocalleader="\"`)
 - Mappings are organized by functionality, following LazyVim's conventions
 
+## Keyboard Modifiers
+
+When reading keyboard shortcuts throughout this guide, you'll encounter special notation for modifier keys:
+
+| Notation | Meaning | Windows | macOS | Linux |
+|----------|---------|---------|-------|-------|
+| `<C-key>` | Control + key | Ctrl key | Control (⌃) key (not Command ⌘) | Ctrl key |
+| `<S-key>` | Shift + key | Shift key | Shift (⇧) key | Shift key |
+
+Examples:
+- `<C-h>` means press Control and h keys together (Ctrl+h)
+- `<S-h>` means press Shift and h keys together (Shift+h, or simply H)
+- `<C-S-h>` means press Control, Shift, and h keys together (Ctrl+Shift+h)
+
 ## Core Settings
 
 | Setting | Value | Description |
