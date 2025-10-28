@@ -498,4 +498,4 @@ nmap gu <Action>(ShowUsages)
 
 nmap gi <Action>(GotoImplementation)
 
-map <leader>a :action Select 
+map <leader>ai <Action>(ActivateGitHubCopilotChatToolWindow)
