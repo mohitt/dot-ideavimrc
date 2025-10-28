@@ -1,1 +1,1 @@
-New-Item -Path ~\.ideavimrc -ItemType SymbolicLink -Value .\.ideavimrc
+New-Item -Path ~\.ideavimrc -ItemType SymbolicLink -Value .\dot-ideavimrc\.ideavimrc

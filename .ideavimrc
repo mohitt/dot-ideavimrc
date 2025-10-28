@@ -127,6 +127,8 @@ nmap gcO O<c-o>gcc
 nmap <leader>l <Action>(WelcomeScreen.Plugins)
 " New File
 nmap <leader>fn <Action>(NewElementSamePlace)
+" New Scratch File
+nmap fn <Action>(NewScratchBuffer)
 " Location List
 nmap <leader>xl <Action>(ActivateProblemsViewToolWindow)
 " Quickfix List
@@ -243,6 +245,8 @@ nmap gr <Action>(FindUsages)
 nmap gI <Action>(GotoImplementation)
 " Goto Type Definition
 nmap gy <Action>(GotoTypeDeclaration)
+" Goto Base
+nmap gb <Action>(GotoSuperMethod)
 " Goto Declaration
 nmap gD <Action>(GotoDeclaration)
 " Signature Help
@@ -491,3 +495,7 @@ nnoremap <leader>vl :source ~/.ideavimrc<CR>
 nnoremap <leader>ve :e ~/.ideavimrc<CR>
 
 nmap gu <Action>(ShowUsages)
+
+nmap gi <Action>(GotoImplementation)
+
+map <leader>a :action Select 
